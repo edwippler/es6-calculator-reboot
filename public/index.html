@@ -3,16 +3,29 @@
   <head>
     <meta charset="utf-8">
     <script src="vendors/jquery.min.js" charset="utf-8"></script>
+    <script src="vendors/less.min.js" charset="utf-8"></script>
     <script src="scripts/client.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet/less" type="text/css" href="styles/style.less">
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
     <title>ES6 Reboot</title>
   </head>
   <body>
     <h1>Calculator Challenge</h1>
-    <div id='container'>
+    <div class='container'>
     <h2>Total:<span id='total'></span></h2>
     <input id="numOne" type="number" placeholder="First Number" class="numField" />
     <input id="numTwo" type="number" placeholder="Second Number" class="numField"/>
+    <button type="button" name="button">9</button>
+    <button type="button" name="button">8</button>
+    <button type="button" name="button">7</button>
+    <button type="button" name="button">6</button>
+    <button type="button" name="button">5</button>
+    <button type="button" name="button">4</button>
+    <button type="button" name="button">3</button>
+    <button type="button" name="button">2</button>
+    <button type="button" name="button">1</button>
+    <button type="button" name="button">0</button>
+    <button type="button" name="button">.</button>
     <button type="button" class="operator" data-math="multiply">*</button>
     <button type="button" class="operator" data-math="divide">/</button>
     <button type="button" class="operator" data-math="add">+</button>
